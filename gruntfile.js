@@ -13,7 +13,7 @@ module.exports = function (grunt) {
         },
         jshint: {
             all: 
-            ['js/*.js'] 
+            ['*.js'] 
             
         }
     });
