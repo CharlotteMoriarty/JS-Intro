@@ -1,11 +1,42 @@
+
 body {
-    background: url(http://thefairytaletraveler.com/wp-content/uploads/2013/10/2.1.jpg);
+    background-color: black;
+}
+.upside {
+    background: url(http://www.sickchirpse.com/wp-content/uploads/2017/03/Stranger-things.jpg);
     background-size: cover;
     text-align: center;
     position: relative;
+    width: 1600px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 0;
+
 }
 h1 {
-    color: #e8631e;
+    color: #490907;
     text-align: center;
     font-size: 55px;
+}
+.upside:hover {
+    transform: rotate(180deg);
+    transition-duration: 3s;
+    animation: squigglevision 0.34s ease-in-out infinite;
+}
+@keyframes squigglevision {
+    0% {
+        filter: url("#turbulence-1");
+    }
+    25% {
+        filter: url("#turbulence-2");
+    }
+    50% {
+        filter: url("#turbulence-3");
+    }
+    75% {
+        filter: url("#turbulence-4");
+    }
+    100% {
+        filter: url("#turbulence-5");
+    }
 }
